@@ -1,0 +1,80 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "4d7822e4-16ca-4edf-aa68-81e5dbe9391d": {
+        "id": "4d7822e4-16ca-4edf-aa68-81e5dbe9391d",
+        "parent": null,
+        "name": "MyFirstProject",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "abea5b54-9412-4f8e-9452-1b256a3752c9"
+        ],
+        "isRemovable": false,
+        "filePath": "MyFirstProject"
+      },
+      "abea5b54-9412-4f8e-9452-1b256a3752c9": {
+        "id": "abea5b54-9412-4f8e-9452-1b256a3752c9",
+        "parent": "4d7822e4-16ca-4edf-aa68-81e5dbe9391d",
+        "name": "lambda.js",
+        "type": "LAMBDA_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "MyFirstProject/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "triggers": [],
+        "config": {
+          "runtime": "nodejs8.10",
+          "timeout": 60,
+          "memory": 128
+        },
+        "testCases": {
+          "c80daad2-3780-489a-a249-6ac9d385bf49": {
+            "id": "c80daad2-3780-489a-a249-6ac9d385bf49",
+            "name": "dd",
+            "functionId": "abea5b54-9412-4f8e-9452-1b256a3752c9",
+            "event": "{\n    \"key1\": \"value1\",\n    \"key2\": \"value2\",\n    \"key3\": \"value3\"\n}"
+          }
+        }
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "4d7822e4-16ca-4edf-aa68-81e5dbe9391d",
+    "openFiles": [
+      "abea5b54-9412-4f8e-9452-1b256a3752c9"
+    ],
+    "currentFileId": "abea5b54-9412-4f8e-9452-1b256a3752c9",
+    "resources": {},
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    },
+    "lambdaId": "abea5b54-9412-4f8e-9452-1b256a3752c9"
+  },
+  "PROJECT_META": {
+    "projectName": "MyFirstProject",
+    "projectDescription": "My First Project",
+    "projectVersion": "1.0.0",
+    "projectRegion": "ap-southeast-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1550041109863
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "MyFirstProject",
+      "url": "https://github.com/hengsovandara/MyFirstProject"
+    }
+  }
+}
